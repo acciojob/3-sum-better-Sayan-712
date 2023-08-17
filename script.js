@@ -13,7 +13,7 @@ function threeSum(arr, target) {
 		{
 			let sum=arr[i]+arr[left]+arr[right];
 			let diff=Math.abs(target-sum);
-	if(diff==0)
+	if(diff===0)
 	{
 		return sum;
 	}
